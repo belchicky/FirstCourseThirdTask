@@ -125,5 +125,4 @@ extension User: JSONInitializable {
         self.fullName = myArray!["fullName"]!
     }
 }
-
 checker.checkExtensions(userType: User.self)
